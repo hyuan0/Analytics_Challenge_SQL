@@ -22,9 +22,9 @@ WITH gdp_perc_continent_cte AS (
                                                   WHERE year = 2012) 
             AS DECIMAL)
         , 2) AS gdp_perc
-    FROM per_capita pc
-    JOIN continent_map cm ON pc.country_code = cm.country_code
-    WHERE year = 2012 
+	FROM per_capita pc
+	JOIN continent_map cm ON pc.country_code = cm.country_code
+	WHERE year = 2012 
     GROUP BY cm.continent_code
 )
 
