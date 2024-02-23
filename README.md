@@ -1,6 +1,7 @@
 # Analytics_Challenge_SQL
 
-Braintree Analytics Challenge  
+My solutions for the Braintree Analytics Challenge to showcase my understanding and proficency in SQL.
+
 More information regarding challenge: [link](https://github.com/AlexanderConnelly/BrainTree_SQL_Coding_Challenge_Data_Analyst)
 
 ### Instructions
