@@ -43,7 +43,7 @@ growth_perc_ranked_cte AS (
 -- Retrieve necessary columns with country ranks of 10-12 for each continent
 SELECT 
 	coun.country_name,
-    coun.country_code,
+	coun.country_code,
     cont.continent_name,
     CONCAT (
         ROUND (CAST(gpr.growth_perc AS DECIMAL)
